@@ -1,0 +1,838 @@
+<style>
+    span {
+        color: #44C1DA;
+    }
+    .display-2 {
+        font-family: MS Gothic;
+    }
+    .display-4 {
+        font-size: 1rem;
+        font-family: MS Gothic;
+    }
+    .container {
+        max-width: 1000px;
+    }
+    .nav-item {
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); 
+        width: 60px; 
+        height: 50px;
+        background: #44C1DA;
+    }
+</style>
+
+<div class="container">
+    <!-- //////////////////// HEADER ROW //////////////////// -->
+    <div class="row no-gutters justify-content-center mb-lg-n5">
+        <!-- //////////////////// FILLER //////////////////// -->
+        <div class="col-lg-4 hidden-md-down"></div>
+        <!-- //////////////////// TITLE AND SUBTITLE //////////////////// -->
+            <div class="col-lg col p-3 text-lg-left text-center">
+                <p class="display-2">
+                    <span>N</span>AME 
+                    <span>H</span>ERE
+                </p>
+                <p class="display-4">
+                    subtitle here
+                </p>
+            </div>
+        <!-- //////////////////// END TITLE AND SUBTITLE //////////////////// -->
+        </div>
+    <!-- //////////////////// END HEADER ROW //////////////////// -->
+    <!-- //////////////////// MAIN ROW //////////////////// -->
+    <div class="row no-gutters">
+        <!-- //////////////////// FOCAL IMAGE //////////////////// -->
+        <div class="col-lg-4 bg-faded p-lg-2 p-1 d-flex mr-lg-3" style="clip-path: polygon(0 10%, 10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%); z-index:9;
+            background: #44C1DA;">
+            <div class="flex-fill" style="
+                background: url(IMGHERE) top center no-repeat;
+                background-size: cover; clip-path: polygon(0 10%, 10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%); min-height: 400px;">
+            </div>
+        </div>
+        <!-- //////////////////// END FOCAL IMAGE //////////////////// -->
+        <!-- //////////////////// NAVIGATION //////////////////// -->
+        <div class="ml-lg-n5 mr-lg-n4 d-flex mx-auto mt-lg-n2" style="z-index: 99999;">
+            <ul class="nav flex-lg-column flex-row my-auto">
+                <!-- //////////////////// ABOUT BUTTON //////////////////// -->
+                <li class="nav-item">
+                    <a href="#abt" class="nav-link active btn btn-outline-primary text-white d-flex border-0 w-100" data-toggle="tab">
+                        <i class="m-auto fal fa-user fa-lg"></i>
+                    </a>
+                </li>
+                <!-- //////////////////// END ABOUT BUTTON //////////////////// -->
+                <!-- //////////////////// PERSONALITY BUTTON //////////////////// -->
+                <li class="nav-item">
+                    <a href="#pers" class="nav-link btn btn-outline-primary text-white d-flex border-0 w-100" data-toggle="tab">
+                        <i class="m-auto fal fa-brain fa-lg"></i>
+                    </a>
+                </li>
+                <!-- //////////////////// END PERSONALITY BUTTON //////////////////// -->
+                <!-- //////////////////// BIO BUTTON //////////////////// -->
+                <li class="nav-item">
+                    <a href="#bio" class="nav-link btn btn-outline-primary text-white d-flex border-0 w-100" data-toggle="tab">
+                        <i class="m-auto fal fa-book fa-lg"></i>
+                    </a>
+                </li>
+                <!-- //////////////////// END BIO BUTTON //////////////////// -->
+                <!-- //////////////////// RELATIONS BUTTON //////////////////// -->
+                <li class="nav-item">
+                    <a href="#link" class="nav-link btn btn-outline-primary text-white d-flex border-0 w-100" data-toggle="tab">
+                        <i class="m-auto fal fa-link fa-lg"></i>
+                    </a>
+                </li>
+                <!-- //////////////////// END RELATIONS BUTTON //////////////////// -->
+                <!-- //////////////////// TRIVIA BUTTON //////////////////// -->
+                <li class="nav-item">
+                    <a href="#misc" class="nav-link btn btn-outline-primary text-white d-flex border-0 w-100" data-toggle="tab">
+                        <i class="m-auto fal fa-star fa-lg"></i>
+                    </a>
+                </li>
+                <!-- //////////////////// END TRIVIA BUTTON //////////////////// --> 
+            </ul>
+        </div>
+        <!-- //////////////////// END NAVIGATION //////////////////// -->
+        <!-- //////////////////// MAIN CONTENT //////////////////// -->
+        <div class="col-lg my-lg-5 ml-lg-n2 pl-lg-0 py-lg-2 pr-lg-2 p-1" style="clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0% 100%); background: #44C1DA;">
+            <div class="bg-faded pl-lg-4 py-3" style="clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0% 100%);">
+                <div class="tab-content">
+                    
+                    
+                    <!-- //////////////////// ABOUT CONTENT //////////////////// -->
+                    <div id="abt" class="tab-pane fade show active">
+                        
+                        <!-- //////////////////// HEADER //////////////////// -->
+                        <div class="display-4 d-flex justify-content-between pr-lg-5 px-4 py-lg-3 py-2">
+                            
+                            <p class="text-left" style="font-family: MS Gothic">
+                                <span style="color: #44C1DA;">A</span>BOUT
+                            </p>
+                            <hr class="flex-fill mt-auto mb-1 mx-2" style="background: #44C1DA; height: 1px;">
+                            <i class="fal fa-user fa-sm my-auto" style="color: #44C1DA;"></i>
+                            
+                        </div>
+                        <!-- //////////////////// END HEADER //////////////////// -->
+                        
+                        <div class="pl-lg-4 px-3 pb-3" style="height: 315px; overflow: auto;">
+                            
+                            <!-- //////////////////// QUOTE //////////////////// -->
+                            <div class="text-center mb-3" style="font-family: 'MS Gothic', monospace; font-size: 1.2rem; color: #44C1DA;">
+                                <p>"Lorem ipsum dolor sit amet."</p>
+                            </div>
+                            
+                            <!-- //////////////////// BASICS //////////////////// -->
+                            <div class="row no-gutters">
+                            
+                                <div class="col-lg-6 pr-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        NAME
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pl-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        ALIAS
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pr-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        AGE
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pl-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        BIRTHDAY
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pr-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        SPECIES
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pl-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        SUBSPECIES
+                                    </span>
+                                    <span class="text-right">
+                                        or race
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pr-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        GENDER
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pl-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        ORIENTATION
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pr-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        OCCUPATION
+                                    </span>
+                                    <span class="text-right">
+                                        content
+                                    </span>
+                                </div>
+                                
+                                <div class="col-lg-6 pl-lg-2 mb-2 justify-content-between">
+                                    <span class="pr-2" style="font-weight: bold; color: #44C1DA">
+                                        DESIGNER
+                                    </span>
+                                    <span class="text-right">
+                                        @ user / <a href="URLHERE">user</a>
+                                    </span>
+                                </div>
+                    
+                            </div>
+                            <!-- //////////////////// END BASICS //////////////////// -->
+                            
+                            <hr class="w-100 mt-2" style="background: #44C1DA; height: 1px; opacity: 0.5;">
+                            <!-- //////////////////// ADD MORE PARAGRAPHS BELOW THIS LINE //////////////////// -->
+                            
+                            <p>Introduce your character here! Like a summary/run down of your character. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            
+                            <!-- //////////////////// ADD MORE PARAGRAPHS ABOVE THIS LINE //////////////////// -->
+                        </div>
+                    </div>
+                    <!-- //////////////////// END ABOUT CONTENT //////////////////// -->
+                    
+                    
+                    <!-- //////////////////// PERSONALITY CONTENT //////////////////// -->
+                    <div id="pers" class="tab-pane fade">
+                        
+                        <!-- //////////////////// HEADER //////////////////// -->
+                        <div class="display-4 d-flex justify-content-between pr-lg-5 px-4 py-lg-3 py-2">
+                            
+                            <p class="text-left" style="font-family: MS Gothic">
+                                <span style="color: #44C1DA;">P</span>ERSONALITY
+                            </p>
+                            <hr class="flex-fill mt-auto mb-1 mx-2" style="background: #44C1DA; height: 1px;">
+                            <i class="fal fa-brain fa-sm my-auto" style="color: #44C1DA;"></i>
+                            
+                        </div>
+                        <!-- //////////////////// END HEADER //////////////////// -->
+                        
+                        <div class="pl-lg-4 px-3" style="height: 315px; overflow: auto;">
+                            
+                            <!-- //////////////////// SLIDERS - to adjust the slider, find 'width: 50%;' and change 50% to any value from 0% to 100% //////////////////// -->
+                            <div class="mb-2" style="color: #44C1DA;">
+                            
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        EXTROVERT
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        INTROVERT
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        PATIENT
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        IMPULSIVE
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        AWKWARD
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        CHARMING
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        BRAVE
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        COWARDLY
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        EMPATHETIC
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        APATHETIC
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        EMOTIONAL
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        STOIC
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-1 row no-gutters justify-content-center">
+                                    <div class="col-lg-2 col-3 text-truncate" style="font-weight: bold;">
+                                        PRIDEFUL
+                                    </div>
+                                    
+                                    <div class="d-flex col-lg col-6 px-2">
+                                        <div class="progress rounded-0 border-0 my-auto flex-fill d-flex flex-row" style="height: 3px; overflow: visible;">
+                                            
+                                            <div class="progress-bar bg-transparent" style="width: 50%;"></div>
+                                            
+                                        <div style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 15px; height: 13px; margin-top: -5px; margin-bottom: -5px; margin-left: -5px;"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-2 col-3 text-truncate text-right" style="font-weight: bold;">
+                                        HUMBLE
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- //////////////////// END SLIDERS //////////////////// -->
+                            
+                            <hr class="w-100" style="background: #44C1DA; height: 1px; opacity: 0.5;">
+                            <!-- //////////////////// ADD MORE PARAGRAPHS BELOW THIS LINE //////////////////// -->
+                            
+                            <p>Go into your character's personality here! You're also allowed to delete sliders if you need. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            
+                            <!-- //////////////////// ADD MORE PARAGRAPHS ABOVE THIS LINE //////////////////// -->
+                            
+                            <!-- //////////////////// LIKES / DISLIKES //////////////////// -->
+                            <div class="row no-gutters mt-3">
+                                
+                                <!-- //////////////////// LIKES //////////////////// -->
+                                <div class="col-lg mb-3">
+                                    
+                                    <!-- //////////////////// HEADER //////////////////// -->
+                                    <p class="display-4 mb-2 d-flex" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                        <i class="fal fa-heart fa-sm my-auto mr-3" style="color: #44C1DA"></i>
+                                        <span style="color: #44C1DA;">L</span>IKES
+                                    </p>
+                                    <!-- //////////////////// END HEADER //////////////////// -->
+                                    
+                                    <ul class="mb-0" style="list-style-type: square">
+                                        <li>content</li>
+                                        <li>content</li>
+                                        <li>content</li>
+                                        <li>content</li>
+                                        <li>content</li>
+                                        
+                                        <!-- //////////////////// ADD MORE LIKES ABOVE THIS LINE //////////////////// -->
+                                    </ul>
+                                </div>
+                                <!-- //////////////////// END LIKES //////////////////// -->
+                                
+                                <!-- //////////////////// DISLIKES //////////////////// -->
+                                <div class="col-lg mb-3">
+                                    
+                                    <!-- //////////////////// HEADER //////////////////// -->
+                                    <p class="display-4 mb-2 d-flex" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                        <i class="fal fa-skull fa-sm my-auto mr-3" style="color: #44C1DA"></i>
+                                        <span style="color: #44C1DA;">D</span>ISLIKES
+                                    </p>
+                                    <!-- //////////////////// END HEADER //////////////////// -->
+                                    
+                                    <ul class="mb-0" style="list-style-type: square">
+                                        <li>content</li>
+                                        <li>content</li>
+                                        <li>content</li>
+                                        <li>content</li>
+                                        <li>content</li>
+                                        
+                                        <!-- //////////////////// ADD MORE DISLIKES ABOVE THIS LINE //////////////////// -->
+                                    </ul>
+                                </div>
+                                <!-- //////////////////// END DISLIKES //////////////////// -->
+                                
+                            </div>
+                            <!-- //////////////////// END LIKES / DISLIKES //////////////////// -->
+                            
+                        </div>
+                    </div>
+                    <!-- //////////////////// END PERSONALITY CONTENT //////////////////// -->
+                    
+                    
+                    <!-- //////////////////// BIO CONTENT //////////////////// -->
+                    <div id="bio" class="tab-pane fade">
+                        
+                        <!-- //////////////////// HEADER //////////////////// -->
+                        <div class="display-4 d-flex justify-content-between pr-lg-5 px-4 py-lg-3 py-2">
+                            
+                            <p class="text-left" style="font-family: MS Gothic">
+                                <span style="color: #44C1DA;">B</span>IOGRAPHY
+                            </p>
+                            <hr class="flex-fill mt-auto mb-1 mx-2" style="background: #44C1DA; height: 1px;">
+                            <i class="fal fa-book fa-sm my-auto" style="color: #44C1DA;"></i>
+                            
+                        </div>
+                        <!-- //////////////////// END HEADER //////////////////// -->
+                        
+                        <div class="pl-lg-4 px-3 pb-3" style="height: 315px; overflow: auto;">
+                            <!-- //////////////////// ADD MORE PARAGRAPHS BELOW THIS LINE
+                                - to add headers, copy from HEADER to END HEADER, then paste anywhere inside this area! You can also change 'fa-bookmark' to any icon available at fontawesome //////////////////// -->
+                            
+                            <!-- //////////////////// HEADER //////////////////// -->
+                            <p class="display-4 mb-2 d-flex" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                <i class="fal fa-bookmark fa-sm my-auto mr-3" style="color: #44C1DA"></i>
+                                <span style="color: #44C1DA;">H</span>EADER ONE
+                            </p>
+                            <!-- //////////////////// END HEADER //////////////////// -->
+                            
+                            
+                            <p>Talk about your character's story here! Feel free to delete the headers if you don't need them. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            
+                            <!-- //////////////////// HEADER //////////////////// -->
+                            <p class="display-4 mb-2 d-flex" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                <i class="fal fa-bookmark fa-sm my-auto mr-3" style="color: #44C1DA"></i>
+                                <span style="color: #44C1DA;">H</span>EADER TWO
+                            </p>
+                            <!-- //////////////////// END HEADER //////////////////// -->
+                            
+                            
+                            <p>Talk about your character's story here! Feel free to delete the headers if you don't need them. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            
+                            
+                            <!-- //////////////////// ADD MORE PARAGRAPHS ABOVE THIS LINE //////////////////// -->
+                        </div>
+                    </div>
+                    <!-- //////////////////// END BIO CONTENT //////////////////// -->
+                    
+                    
+                    <!-- //////////////////// RELATIONS CONTENT //////////////////// -->
+                    <div id="link" class="tab-pane fade">
+                        
+                        <!-- //////////////////// HEADER //////////////////// -->
+                        <div class="display-4 d-flex justify-content-between pr-lg-5 px-4 py-lg-3 py-2">
+                            
+                            <p class="text-left" style="font-family: MS Gothic">
+                                <span style="color: #44C1DA;">R</span>ELATIONS
+                            </p>
+                            <hr class="flex-fill mt-auto mb-1 mx-2" style="background: #44C1DA; height: 1px;">
+                            <i class="fal fa-link fa-sm my-auto" style="color: #44C1DA;"></i>
+                            
+                        </div>
+                        <!-- //////////////////// END HEADER //////////////////// -->
+                        
+                        <div class="pl-lg-4 px-3" style="height: 315px; overflow: auto;">
+                            <!-- //////////////////// ADD MORE CHARACTERS BELOW THIS LINE - add more characters by copying from CHARACTER to END CHARACTER, and paste it anywhere inside this area! Remove characters by also starting from CHARACTER to END CHARACTER //////////////////// -->
+                            
+                            
+                            <!-- //////////////////// CHARACTER //////////////////// -->
+                            <div class="flex-lg-row flex-column">
+                                
+                                <!-- //////////////////// IMAGE //////////////////// -->
+                                <div class="d-flex mb-lg-4 mb-2">
+                                    
+                                    <div class="mx-auto mb-auto p-1" style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);">
+                                        <div style="clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;"></div>
+                                    
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END IMAGE //////////////////// -->
+                                
+                                <!-- //////////////////// DESC - heart meter can be adjusted, change 'fas' (solid heart) to 'fal' (empty heart) and vice versa //////////////////// -->
+                                <div class="col-lg pl-lg-3 mb-4">
+                                    <div class="display-4 mb-2 d-flex justify-content-between" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                        <a href="URLHERE" class="text-reset"><span style="color: #44C1DA;">N</span>AME</a>
+                                        
+                                        <span class="my-auto" style="font-size: 1rem; color: #44C1DA;">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-heart" ></i>
+                                            <i class="fal fa-heart"></i>
+                                            <i class="fal fa-heart"></i>
+                                        </span>
+                                    </div>
+                                    
+                                    <p>Talk about the relationship of your characters here! This won't scroll, and the picture will be at the top left if you write a lot of text here.</p>
+                                </div>
+                                <!-- //////////////////// END DESC //////////////////// -->
+                            </div>
+                            <!-- //////////////////// END CHARACTER //////////////////// -->
+                            
+                            <!-- //////////////////// CHARACTER //////////////////// -->
+                            <div class="flex-lg-row flex-column">
+                                
+                                <!-- //////////////////// IMAGE //////////////////// -->
+                                <div class="d-flex mb-lg-4 mb-2">
+                                    
+                                    <div class="mx-auto mb-auto p-1" style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);">
+                                        <div style="clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;"></div>
+                                    
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END IMAGE //////////////////// -->
+                                
+                                <!-- //////////////////// DESC - heart meter can be adjusted, change 'fas' (solid heart) to 'fal' (empty heart) and vice versa //////////////////// -->
+                                <div class="col-lg pl-lg-3 mb-4">
+                                    <div class="display-4 mb-2 d-flex justify-content-between" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                        <a href="URLHERE" class="text-reset"><span style="color: #44C1DA;">N</span>AME</a>
+                                        
+                                        <span class="my-auto" style="font-size: 1rem; color: #44C1DA;">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-heart" ></i>
+                                            <i class="fal fa-heart"></i>
+                                            <i class="fal fa-heart"></i>
+                                        </span>
+                                    </div>
+                                    
+                                    <p>Talk about the relationship of your characters here! This won't scroll, and the picture will be at the top left if you write a lot of text here. Here's an example of longer text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non.</p>
+                                </div>
+                                <!-- //////////////////// END DESC //////////////////// -->
+                            </div>
+                            <!-- //////////////////// END CHARACTER //////////////////// -->
+                            
+                            <!-- //////////////////// CHARACTER //////////////////// -->
+                            <div class="flex-lg-row flex-column">
+                                
+                                <!-- //////////////////// IMAGE //////////////////// -->
+                                <div class="d-flex mb-lg-4 mb-2">
+                                    
+                                    <div class="mx-auto mb-auto p-1" style="background: #44C1DA; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);">
+                                        <div style="clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;"></div>
+                                    
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END IMAGE //////////////////// -->
+                                
+                                <!-- //////////////////// DESC - heart meter can be adjusted, change 'fas' (solid heart) to 'fal' (empty heart) and vice versa //////////////////// -->
+                                <div class="col-lg pl-lg-3 mb-4">
+                                    <div class="display-4 mb-2 d-flex justify-content-between" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                        <a href="URLHERE" class="text-reset"><span style="color: #44C1DA;">N</span>AME</a>
+                                        
+                                        <span class="my-auto" style="font-size: 1rem; color: #44C1DA;">
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-heart" ></i>
+                                            <i class="fal fa-heart"></i>
+                                            <i class="fal fa-heart"></i>
+                                        </span>
+                                    </div>
+                                    
+                                    <p>Talk about the relationship of your characters here! This won't scroll, and the picture will be at the top left if you write a lot of text here.</p>
+                                </div>
+                                <!-- //////////////////// END DESC //////////////////// -->
+                            </div>
+                            <!-- //////////////////// END CHARACTER //////////////////// -->
+                            
+                            
+                            <!-- //////////////////// ADD MORE CHARACTERS ABOVE THIS LINE //////////////////// -->
+                        </div>
+                    </div>
+                    <!-- //////////////////// END RELATIONS CONTENT //////////////////// -->
+                    
+                    
+                    <!-- //////////////////// MISC CONTENT //////////////////// -->
+                    <div id="misc" class="tab-pane fade">
+                        
+                        <!-- //////////////////// HEADER //////////////////// -->
+                        <div class="display-4 d-flex justify-content-between pr-lg-5 px-4 py-lg-3 py-2">
+                            
+                            <p class="text-left" style="font-family: MS Gothic">
+                                <span style="color: #44C1DA;">M</span>ISC
+                            </p>
+                            <hr class="flex-fill mt-auto mb-1 mx-2" style="background: #44C1DA; height: 1px;">
+                            <i class="fal fa-star fa-sm my-auto" style="color: #44C1DA;"></i>
+                            
+                        </div>
+                        <!-- //////////////////// END HEADER //////////////////// -->
+                        
+                        <div class="pl-lg-4 px-3" style="height: 315px; overflow: auto;">
+                        
+                            <!-- //////////////////// MOODBOARD - It's best if you don't add more pictures since it'll mess up the layout //////////////////// -->
+                            <div class="row no-gutters mb-3 justify-content-center">
+                                
+                                <!-- //////////////////// HEX 1 //////////////////// -->
+                                <div class="col-lg-3 col-6 mr-n3 d-flex">
+                                    <div class="ml-auto" style="clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;">
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END HEX 1 //////////////////// -->
+                                
+                                
+                                <!-- //////////////////// HEX 2 //////////////////// -->
+                                <div class="col-lg-3 col-6 ml-n3 mr-lg-n3 mb-lg-0 d-flex" style="margin-bottom: -62px;">
+                                    <div class="mr-auto" style="margin-top: 67px; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;">
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END HEX 2 //////////////////// -->
+                                
+                                
+                                <!-- //////////////////// HEX 3 //////////////////// -->
+                                <div class="col-lg-3 col-6 mr-n3 ml-lg-n3 d-flex">
+                                    <div class="ml-auto" style="clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;">
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END HEX 3 //////////////////// -->
+                                
+                                
+                                <!-- //////////////////// HEX 4 //////////////////// -->
+                                <div class="col-lg-3 col-6 ml-n3 d-flex">
+                                    <div class="mr-auto" style="margin-top: 67px; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); width: 145px; height: 130px;
+                                        
+                                        background: url(IMGHERE) center;
+                                        background-size: cover;">
+                                    
+                                    </div>
+                                </div>
+                                <!-- //////////////////// END HEX 4 //////////////////// -->
+                                
+                            </div>
+                            <!-- //////////////////// END MOODBOARD //////////////////// -->
+                            
+                            <!-- //////////////////// TRIVIA //////////////////// -->
+                            <div class="mb-3">
+                                
+                                <!-- //////////////////// HEADER //////////////////// -->
+                                <p class="display-4 mb-2 d-flex" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                    <i class="fal fa-question fa-sm my-auto mr-3" style="color: #44C1DA"></i>
+                                    <span style="color: #44C1DA;">T</span>RIVIA</p>
+                                <!-- //////////////////// END HEADER //////////////////// -->
+                                
+                                <ul class="mb-0" style="list-style-type: square">
+                                    <li>Talk about your trivia bullet points here!</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                    
+                                    <!-- //////////////////// ADD MORE TRIVIAS HERE //////////////////// -->
+                                </ul>
+                            </div>
+                            <!-- //////////////////// END TRIVIA //////////////////// -->
+                            
+                            <!-- //////////////////// RIBBONS - feel free to remove this whole section if you don't need it //////////////////// -->
+                            <div class="mb-3">
+                                
+                                <!-- //////////////////// HEADER //////////////////// -->
+                                <p class="display-4 mb-2 d-flex" style="font-family: 'MS Gothic', monospace; font-size: 1.6rem;">
+                                    <i class="fal fa-ribbon fa-sm my-auto mr-3" style="color: #44C1DA"></i>
+                                    <span style="color: #44C1DA;">R</span>IBBONS</p>
+                                <!-- //////////////////// END HEADER //////////////////// -->
+                                
+                                <div class="row no-gutters justify-content-center">
+                                    <!-- //////////////////// ADD MORE RIBBONS BELOW THIS LINE
+                                        - add ribbons by copying from RIBBON to END RIBBON and paste anywhere inside the area! Remove ribbons by also following the RIBBON to END RIBBON comments
+                                        - change the description by finding DESCHERE and add your description WITHIN the parenthesis //////////////////// -->
+                                    
+                                    <!-- //////////////////// RIBBON //////////////////// -->
+                                    <div class="col-lg-2 col-3 text-center py-2" data-toggle="tooltip" title="DESCHERE">
+                                        <img src="IMGHERE">
+                                    </div>
+                                    <!-- //////////////////// END RIBBON //////////////////// -->
+                                    
+                                    <!-- //////////////////// RIBBON //////////////////// -->
+                                    <div class="col-lg-2 col-3 text-center py-2" data-toggle="tooltip" title="DESCHERE">
+                                        <img src="IMGHERE">
+                                    </div>
+                                    <!-- //////////////////// END RIBBON //////////////////// -->
+                                    
+                                    <!-- //////////////////// RIBBON //////////////////// -->
+                                    <div class="col-lg-2 col-3 text-center py-2" data-toggle="tooltip" title="DESCHERE">
+                                        <img src="IMGHERE">
+                                    </div>
+                                    <!-- //////////////////// END RIBBON //////////////////// -->
+                                    
+                                    <!-- //////////////////// RIBBON //////////////////// -->
+                                    <div class="col-lg-2 col-3 text-center py-2" data-toggle="tooltip" title="DESCHERE">
+                                        <img src="IMGHERE">
+                                    </div>
+                                    <!-- //////////////////// END RIBBON //////////////////// -->
+                                    
+                                    
+                                    <!-- //////////////////// ADD MORE RIBBONS ABOVE THIS LINE //////////////////// -->
+                                </div>
+                            </div>
+                            <!-- //////////////////// END RIBBONS //////////////////// -->
+                            
+                        </div>
+                    </div>
+                    <!-- //////////////////// END MISC CONTENT //////////////////// -->
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <!-- //////////////////// END MAIN CONTENT //////////////////// -->
+        
+    </div>
+    <!-- //////////////////// END MAIN ROW //////////////////// -->
+    
+    
+    <!-- //////////////////// FOOTER ROW //////////////////// -->
+    <div class="row no-gutters justify-content-center mt-lg-n5">
+        
+        <!-- //////////////////// CREDITS - please don't remove! Except for the ribbons line if you won't use it //////////////////// -->
+        <div class="col-lg-4 order-lg-first order-last pt-lg-5 text-muted text-lg-left text-center">
+        
+            <p class="mb-0 mt-2">
+                
+                <a href="https://toyhou.se/icecreampizzeria"><i class="fal fa-ice-cream"></i></a> /
+            
+                <a href="URLHERE"><i class="fal fa-image"></i></a> /
+            
+                <a href="URLHERE"><i class="fal fa-ribbon"></i></a>
+            
+            </p>
+        </div>
+        <!-- //////////////////// END CREDITS //////////////////// -->
+        
+        <!-- //////////////////// MUSIC PLAYER //////////////////// -->
+        <div class="col-lg-8 py-3 row no-gutters">
+            
+            
+            <!-- //////////////////// MUSIC TITLE AND ARTIST //////////////////// -->
+            <div class="col-lg-10 col-9 pr-3 text-right ml-auto">
+                <p class="display-4 mb-0 text-truncate text-uppercase" style="font-size: 1.7rem; font-family: MS Gothic;">
+                    <span style="color: #44C1DA;">M</span>USIC
+                    <span style="color: #44C1DA;">T</span>ITLE</p>
+                
+                <p class="display-4 text-truncate" style="font-size: 1rem; font-family: MS Gothic;">Artist</p>
+            </div>
+            <!-- //////////////////// END MUSIC TITLE AND ARTIST //////////////////// -->
+            
+            
+            <!-- //////////////////// MUSIC BUTTON //////////////////// -->
+            <div>
+                <!-- //////////////////// YOUTUBE LINK - replace URLHERE with the YT link of your video (specifically, the keysmash found at the end of 'watch?v='). DO NOT remove ?modestbranding=1 //////////////////// -->
+                <iframe src="https://www.youtube-nocookie.com/embed/URLHERE?modestbranding=1" frameborder="0" style="position: absolute; width: 2.1em; height: 1.7em; margin-left:15px; margin-top: 12px; z-index: 1; opacity: 0.001;"></iframe>
+                
+                <!-- //////////////////// HEX BUTTON //////////////////// -->
+                <div class="card border-0 p-2" style="
+                    background: #44C1DA;
+                    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); height: 50px; width: 60px;">
+                    <i class="fal fa-cassette-tape m-auto text-white fa-2x"></i>
+                </div>
+                
+            </div>
+        </div>
+        <!-- //////////////////// END MUSIC BUTTON //////////////////// -->
+        
+    </div>
+    <!-- //////////////////// END FOOTER ROW //////////////////// -->
+    
+    
+</div>
+<!-- //////////////////// END WHOLE THING //////////////////// -->
+
